@@ -1,0 +1,44 @@
+{
+  "name": "uiModel",
+  "version": "0.0.0",
+  "description": "",
+  "main": "./lib/main.js",
+  "types": "./lib/main.d.ts",
+  "scripts": {
+    "lint": "standard --fix ./source/**/*.js || true"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CloudflareApps/ExampleApp.git"
+  },
+  "author": "Cloudflare Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CloudflareApps/ExampleApp/issues"
+  },
+  "homepage": "https://github.com/CloudflareApps/ExampleApp#readme",
+  "dependencies": {
+    "gulp-order": "^1.1.1",
+    "gulp-typescript": "^3.2.2",
+    "typescript": "^2.4.2"
+  },
+  "devDependencies": {
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-remove-lines": "^0.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-strip-code": "^0.1.4",
+    "source-map": "^0.5.7",
+    "standard": "^9.0.2",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "standard": {
+    "globals": [
+      "INSTALL",
+      "INSTALL_OPTIONS",
+      "INSTALL_SCOPE",
+      "INSTALL_ID"
+    ]
+  }
+}
